@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.grabrielborba.springmc.domain.Categoria;
 
-@RestController
+@RestController //REST Transferência Representacional de Estado
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
 	
